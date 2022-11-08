@@ -1,12 +1,12 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
-// import "jquery/dist/jquery.js";
 import "bootstrap/dist/js/bootstrap.js";
-// import _ from "lodash";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import About from "./components/about";
 import Contact from "./components/contact";
+import Display from "./components/displayforminjs";
+// import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'; 
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
         <div style={{margin: '40px'}}>.</div>
         <About />
         <Contact />
-        <Footer />
+        <Display />
+        <Footer name="Bhargav Bodhankar"/>
       </div>
   );
 }

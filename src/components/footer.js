@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = (props) => {
     return (
       <footer className="footer bg-black">
         <div className="container">
@@ -9,7 +9,7 @@ const Footer = () => {
                   VESIT
                 </span>
                 <span>
-                  Developed in ReactJS by <strong>Bhargav Bodhankar</strong>
+                  Developed in ReactJS by <strong>{props.name}</strong>
                 </span>
               </div>
             </div>
