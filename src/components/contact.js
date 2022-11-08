@@ -1,9 +1,8 @@
-import _ from "lodash";
 import * as Icon from "react-bootstrap-icons";
 
 export default function Contact() {
   return (
-    <section id="contact" className="footer-paralax bg-image sect-mt4 route">
+    <section id="contact" className="footer-paralax bg-image sect-mt4 route" style={{marginTop: '-100px'}}>
       <div className="overlay-mf"></div>
       <div className="container">
         <div className="row">
